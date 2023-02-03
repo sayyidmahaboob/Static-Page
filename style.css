@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Poppins&family=Space+Mono&family=Squada+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* overflow-y: scroll;
+  scroll-snap-type: y mandatory; */
+}
+
+.items {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  scroll-snap-align: start;
+}
+
+.items h2 {
+  font-size: 3.125rem;
+  font-weight: 600;
+}
+
+.item1 {
+  background-color: rgb(255, 255, 255);
+}
+
+.item2 {
+  background: linear-gradient(
+    180deg,
+    rgb(255 188 223) 0%,
+    rgb(255 188 223) 100%
+  );
+}
+.item3 {
+  background-color: rgb(235 250 209);
+}
+
+li,
+a,
+button {
+  font-size: 1.12rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  position: sticky;
+  top: 0;
+  overflow: y;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.navlinks {
+  list-style: none;
+  color: black;
+}
+
+.navlinks li {
+  display: inline;
+  padding: 0px 20px;
+  color: black;
+}
+
+button {
+  background-color: white;
+  /* border-radius: 2px; */
+  width: 160px;
+  height: 60px;
+  border: solid rgb(255, 255, 255) 1.5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+h3 {
+  margin-left: 35px;
+  cursor: pointer;
+  /* margin-left: 20px; */
+  font-size: 1.12rem;
+}
+
+header nav {
+  position: sticky;
+  top: 0;
+}
